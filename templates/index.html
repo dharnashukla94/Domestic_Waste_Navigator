@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Dharna Shukla">
+
+    <title>Domestic Waste Classifier</title>
+
+    <!-- Custom styles for this template -->
+    <link href="static/main.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+  <div class="main">
+    <div class="title">
+      <h3><b>Domestic Waste Classifier</b></h3>
+
+    </div>
+
+    <div class="panel">
+      <form method=post enctype=multipart/form-data>
+
+        <input type="file" class="upload-box" name="file">
+
+    </div>
+    <div style="margin-bottom: 2rem;">
+      <button class="button" type="submit">Upload</button>
+    </div>
+    </form>
+
+    <div id="image-box">
+      {% if image %}
+      <img id="image-display" src="data:;base64,{{image}}"/>
+      {% endif %}
+      <br>
+      <center><h3>{{result}}</h3></center>
+
+    </div>
+  </div>
+
+
+</body></html>

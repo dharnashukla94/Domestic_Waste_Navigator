@@ -63,7 +63,9 @@ def index():
         with open(location, "rb") as image_file:
             encoded_image = base64.b64encode(image_file.read()).decode("utf-8")
 
+        os.remove(location)
         return render_template('index.html', result=classes[max_index[0]], image=encoded_image)
+
 
     return render_template('index.html')
 

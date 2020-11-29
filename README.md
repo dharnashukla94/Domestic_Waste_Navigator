@@ -6,6 +6,7 @@ or you can run the following cmd with docker installed:
 $ docker pull dharnashukla94/domestic_waste_navigator
 ```
 
+Sample images are present in <b>static/sample_images</br> folder. You can test the model on that.
 ## Getting Started in 10 Minutes
 
 - Clone this repo 
@@ -13,6 +14,9 @@ $ docker pull dharnashukla94/domestic_waste_navigator
 - Run the script
 - Go to http://localhost:8080
 - Done!
+
+<img src="static/upload/1.png" width="400">  <img src="static/upload/2.png" width="400"> 
+
 
 ## Run with Docker
 

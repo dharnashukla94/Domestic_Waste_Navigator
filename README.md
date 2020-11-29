@@ -14,6 +14,9 @@ $ docker pull dharnashukla94/domestic_waste_navigator
 - Go to http://localhost:8080
 - Done!
 
+<img src="static/upload/1.png" width="400">  <img src="static/upload/2.png" width="400"> 
+
+
 ## Run with Docker
 
 With **[Docker](https://www.docker.com)**, you can quickly build and run the entire application in minutes :whale:

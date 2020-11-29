@@ -40,7 +40,7 @@ Open http://localhost:8080 and wait till the webpage is loaded.
 
 It's easy to install and run it on your computer.
 
-Github does not allow files larger than 100 MB, You can download the model from [here](https://drive.google.com/file/d/1bxDDanKqu7toxu19dcnG7Nq99xpWy6OR/view?usp=sharing) just copy the downloaded model to models folder.
+Github does not allow files larger than 100 MB, You can download the model from [here](https://drive.google.com/file/d/1bxDDanKqu7toxu19dcnG7Nq99xpWy6OR/view?usp=sharing) just copy the downloaded model to model_files folder.
 
 ```shell
 # 1. First, clone the repo
